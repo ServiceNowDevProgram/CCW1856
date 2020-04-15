@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_data_policy_rule">
+    <sys_data_policy_rule action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>instance_credentials</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_data_policy_rule</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-15 00:13:10</sys_created_on>
+        <sys_data_policy display_value="Sets the Instance Credentials field to mandatory">7cc318f3908010107f4468f7a3a96f65</sys_data_policy>
+        <sys_id>bcc318f3908010107f4468f7a3a96f67</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>instance_credentials</sys_name>
+        <sys_package display_value="CCW1856" source="x_cdltd_ccw1856">b5a05473908010107f4468f7a3a96f5c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CCW1856">b5a05473908010107f4468f7a3a96f5c</sys_scope>
+        <sys_update_name>sys_data_policy_rule_bcc318f3908010107f4468f7a3a96f67</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-15 00:13:10</sys_updated_on>
+        <table>x_cdltd_ccw1856_environments</table>
+    </sys_data_policy_rule>
+</record_update>
