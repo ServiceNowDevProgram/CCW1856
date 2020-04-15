@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>7d9507b3900810107f4468f7a3a96fee</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_cdltd_ccw1856_environments">
+    <x_cdltd_ccw1856_environments action="INSERT_OR_UPDATE">
+        <instance_credentials display_value="x_cdltd_ccw1856.Dev_Instance">64d3f4b790c010107f4468f7a3a96fcd</instance_credentials>
+        <instance_url>REPLACEME</instance_url>
+        <name>Production</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-15 13:10:27</sys_created_on>
+        <sys_id>7d9507b3900810107f4468f7a3a96fee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-15 13:10:27</sys_updated_on>
+    </x_cdltd_ccw1856_environments>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-15 13:16:22</sys_created_on>
+        <sys_id>1507c3f3900810107f4468f7a3a96fab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Production</sys_name>
+        <sys_package display_value="CCW1856" source="x_cdltd_ccw1856">b5a05473908010107f4468f7a3a96f5c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CCW1856">b5a05473908010107f4468f7a3a96f5c</sys_scope>
+        <sys_update_name>sys_metadata_link_1507c3f3900810107f4468f7a3a96fab</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-15 13:16:22</sys_updated_on>
+        <tablename>x_cdltd_ccw1856_environments</tablename>
+    </sys_metadata_link>
+</record_update>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element audit="true" extends="task" label="Deployment Request" max_length="40" name="x_cdltd_ccw1856_deployment_request" text_index="true" type="collection">
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Action" max_length="40" name="action" type="choice">
+        <element attributes="edge_encryption_enabled=true" choice="1" default="11" label="Action" max_length="40" name="action" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Local Testing" value="11"/>
                 <element inactive_on_update="false" label="Remote Deploy" value="13"/>
@@ -13,6 +13,6 @@
         <element attributes="edge_encryption_enabled=true" label="Git Branch" max_length="100" name="git_branch" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Git Tag" max_length="100" name="git_tag" type="string"/>
         <element label="Repository" max_length="32" name="repository" reference="sys_repo_config" type="reference"/>
-        <element attributes="encode_utf8=false" label="Team" max_length="32" name="team" reference="x_cdltd_ccw1856_cicd_pipeline" type="reference"/>
+        <element attributes="encode_utf8=false" label="Team" max_length="32" name="team" reference="x_cdltd_ccw1856_cicd_team_setup" type="reference"/>
     </element>
 </database>

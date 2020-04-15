@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>2b2747f3900810107f4468f7a3a96f74</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_cdltd_ccw1856_cicd_team_setup">
+    <x_cdltd_ccw1856_cicd_team_setup action="INSERT_OR_UPDATE">
+        <environment_setup display_value="Normal">7e25c3b3900810107f4468f7a3a96f2e</environment_setup>
+        <name display_value="CCW1856" name="CCW1856">66930373900810107f4468f7a3a96f09</name>
+        <number>CIC0001001</number>
+        <slack_webhook/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-15 13:17:16</sys_created_on>
+        <sys_id>2b2747f3900810107f4468f7a3a96f74</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-15 13:17:16</sys_updated_on>
+    </x_cdltd_ccw1856_cicd_team_setup>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-15 13:17:22</sys_created_on>
+        <sys_id>c84747f3900810107f4468f7a3a96f33</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CCW1856</sys_name>
+        <sys_package display_value="CCW1856" source="x_cdltd_ccw1856">b5a05473908010107f4468f7a3a96f5c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CCW1856">b5a05473908010107f4468f7a3a96f5c</sys_scope>
+        <sys_update_name>sys_metadata_link_c84747f3900810107f4468f7a3a96f33</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-15 13:17:22</sys_updated_on>
+        <tablename>x_cdltd_ccw1856_cicd_team_setup</tablename>
+    </sys_metadata_link>
+</record_update>

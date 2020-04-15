@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>7e25c3b3900810107f4468f7a3a96f2e</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_cdltd_ccw1856_cicd_pipeline">
+    <x_cdltd_ccw1856_cicd_pipeline action="INSERT_OR_UPDATE">
+        <dev_environment display_value="Dev">27048773900810107f4468f7a3a96f2d</dev_environment>
+        <name>Normal</name>
+        <prod_environment display_value="Production">7d9507b3900810107f4468f7a3a96fee</prod_environment>
+        <qa_environment display_value="QA">898587b3900810107f4468f7a3a96f1a</qa_environment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-15 13:09:11</sys_created_on>
+        <sys_id>7e25c3b3900810107f4468f7a3a96f2e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-15 13:10:50</sys_updated_on>
+        <test_environment display_value="Test">4524c773900810107f4468f7a3a96f16</test_environment>
+    </x_cdltd_ccw1856_cicd_pipeline>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-15 13:16:57</sys_created_on>
+        <sys_id>f12747f3900810107f4468f7a3a96f2a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Normal</sys_name>
+        <sys_package display_value="CCW1856" source="x_cdltd_ccw1856">b5a05473908010107f4468f7a3a96f5c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CCW1856">b5a05473908010107f4468f7a3a96f5c</sys_scope>
+        <sys_update_name>sys_metadata_link_f12747f3900810107f4468f7a3a96f2a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-15 13:16:57</sys_updated_on>
+        <tablename>x_cdltd_ccw1856_cicd_pipeline</tablename>
+    </sys_metadata_link>
+</record_update>
