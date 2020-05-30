@@ -48,7 +48,7 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-04-15 00:09:52</sys_created_on>
-        <sys_id>011fd3b3904810107f4468f7a3a96f8e</sys_id>
+        <sys_id>34fc6e9e2f051410ac02a55df699b65d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Active</sys_name>
         <sys_package display_value="CCW1856" source="x_cdltd_ccw1856">b5a05473908010107f4468f7a3a96f5c</sys_package>
@@ -56,7 +56,7 @@
         <sys_scope display_value="CCW1856">b5a05473908010107f4468f7a3a96f5c</sys_scope>
         <sys_update_name>sys_dictionary_x_cdltd_ccw1856_dev_scopes_active</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-04-15 15:01:34</sys_updated_on>
+        <sys_updated_on>2020-05-30 12:34:26</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
