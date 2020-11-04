@@ -11,9 +11,9 @@
         <delete_access>false</delete_access>
         <extension_model/>
         <is_extendable>false</is_extendable>
-        <label>Dev Scopes</label>
+        <label>CICD Pipeline</label>
         <live_feed_enabled>false</live_feed_enabled>
-        <name>x_cdltd_ccw1856_dev_scopes</name>
+        <name>x_cdltd_ccw1856_cicd_pipeline</name>
         <number_ref/>
         <provider_class/>
         <read_access>true</read_access>
@@ -23,16 +23,16 @@
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_class_path/>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-04-15 00:09:52</sys_created_on>
-        <sys_id>900310f3908010107f4468f7a3a96f53</sys_id>
+        <sys_created_on>2020-04-15 00:17:04</sys_created_on>
+        <sys_id>958330d1db1860107e81196c29961973</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Ccw1856 Dev Scopes</sys_name>
+        <sys_name>Ccw1856 Cicd Pipeline</sys_name>
         <sys_package display_value="CCW1856" source="x_cdltd_ccw1856">b5a05473908010107f4468f7a3a96f5c</sys_package>
         <sys_policy/>
         <sys_scope display_value="CCW1856">b5a05473908010107f4468f7a3a96f5c</sys_scope>
-        <sys_update_name>sys_db_object_900310f3908010107f4468f7a3a96f53</sys_update_name>
+        <sys_update_name>sys_db_object_958330d1db1860107e81196c29961973</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-04-15 00:09:52</sys_updated_on>
+        <sys_updated_on>2020-04-15 00:17:04</sys_updated_on>
         <update_access>true</update_access>
         <user_role/>
         <ws_access>true</ws_access>

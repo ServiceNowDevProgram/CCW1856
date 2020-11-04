@@ -6,7 +6,8 @@
         <compiled_page_registry display_value="CCW1856">72765077908010107f4468f7a3a96f1d</compiled_page_registry>
         <description>Manage Deployment Requests</description>
         <global_search display_value="Default search settings">97a574ea53c0130084acddeeff7b12a6</global_search>
-        <global_search_data display_value="CCW1856 Search Context Config">72765437908010107f4468f7a3a96ffa</global_search_data>
+        <global_search_data display_value="">72765437908010107f4468f7a3a96ffa</global_search_data>
+        <hide_search_results_count>false</hide_search_results_count>
         <name>CCW1856</name>
         <navigation_type>tab</navigation_type>
         <notifications_enabled>true</notifications_enabled>

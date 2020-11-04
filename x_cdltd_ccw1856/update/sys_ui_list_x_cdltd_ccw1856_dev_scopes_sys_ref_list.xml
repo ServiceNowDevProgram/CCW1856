@@ -3,7 +3,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>name</element>
-            <list_id display_value="x_cdltd_ccw1856_dev_scopes" element="NULL" name="x_cdltd_ccw1856_dev_scopes" parent="NULL" relationship="NULL" sys_domain="global" view="542a3041082300107f447452aafab967">e5d98f37900810107f4468f7a3a96f33</list_id>
+            <list_id display_value="x_cdltd_ccw1856_dev_scopes" element="NULL" name="x_cdltd_ccw1856_dev_scopes" parent="NULL" relationship="NULL" sys_domain="global" view="f83811707420330078509adcc48c879b">e5d98f37900810107f4468f7a3a96f33</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
@@ -40,7 +40,7 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2020-04-15 13:28:40</sys_updated_on>
             <sys_user/>
-            <view display_value="Reference List" name="sys_ref_list">542a3041082300107f447452aafab967</view>
+            <view display_value="Reference List" name="sys_ref_list">f83811707420330078509adcc48c879b</view>
             <view_name/>
         </sys_ui_list>
     </sys_ui_list>

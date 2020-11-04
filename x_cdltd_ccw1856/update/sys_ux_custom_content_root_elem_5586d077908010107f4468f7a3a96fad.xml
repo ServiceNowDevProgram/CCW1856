@@ -18,11 +18,11 @@
         <picker/>
         <picker_condition/>
         <placeholder display_value="Workspace Toolbar Buttons">1232bfb5730c330075e8f358caf6a7ca</placeholder>
+        <slot/>
         <sys_class_name>sys_ux_custom_content_root_elem</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-04-15 00:25:14</sys_created_on>
         <sys_domain>global</sys_domain>
-        <sys_domain_path>/</sys_domain_path>
         <sys_id>5586d077908010107f4468f7a3a96fad</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name>Home Button</sys_name>

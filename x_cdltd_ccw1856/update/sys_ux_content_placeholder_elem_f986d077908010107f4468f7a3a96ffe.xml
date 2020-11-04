@@ -15,6 +15,7 @@
         <parent_slot/>
         <picker/>
         <picker_condition/>
+        <slot/>
         <sys_class_name>sys_ux_content_placeholder_elem</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-04-15 00:25:15</sys_created_on>

@@ -7,7 +7,7 @@
         <hint/>
         <name/>
         <order>100</order>
-        <roles/>
+        <roles>snc_internal</roles>
         <sys_class_name>sys_app_application</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-04-15 02:06:46</sys_created_on>
