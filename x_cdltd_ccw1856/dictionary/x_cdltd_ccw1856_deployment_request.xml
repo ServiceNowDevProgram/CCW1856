@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="task" label="Deployment Request" max_length="40" name="x_cdltd_ccw1856_deployment_request" text_index="true" type="collection">
+    <element audit="true" extends="task" label="Deployment Request" max_length="40" name="x_cdltd_ccw1856_deployment_request" sizeclass="1" text_index="true" type="collection">
         <element attributes="edge_encryption_enabled=true" choice="1" default="11" label="Action" max_length="40" name="action" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Local Testing" value="11"/>
