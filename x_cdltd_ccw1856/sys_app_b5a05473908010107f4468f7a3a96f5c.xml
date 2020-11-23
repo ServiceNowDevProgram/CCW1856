@@ -28,15 +28,15 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-04-14 23:59:35</sys_created_on>
         <sys_id>b5a05473908010107f4468f7a3a96f5c</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-11-04 22:18:57</sys_updated_on>
+        <sys_updated_on>2020-11-23 22:17:41</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <uninstall_blocked>false</uninstall_blocked>
         <user_role/>
         <vendor/>
         <vendor_prefix/>
-        <version>1.0.7</version>
+        <version>1.0.8</version>
     </sys_app>
 </record_update>
