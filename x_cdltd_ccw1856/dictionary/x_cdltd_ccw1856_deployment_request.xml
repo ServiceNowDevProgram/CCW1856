@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="task" label="Deployment Request" max_length="40" name="x_cdltd_ccw1856_deployment_request" text_index="true" type="collection">
+    <element audit="true" extends="task" label="Deployment Request" max_length="40" name="x_cdltd_ccw1856_deployment_request" sizeclass="1" text_index="true" type="collection">
         <element attributes="edge_encryption_enabled=true" choice="1" default="11" label="Action" max_length="40" name="action" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Local Testing" value="11"/>
@@ -9,7 +9,7 @@
         </element>
         <element attributes="encode_utf8=false" label="Application" max_length="32" name="application" reference="x_cdltd_ccw1856_dev_scopes" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Application Scope" max_length="100" name="application_scope" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Application Version" max_length="40" name="application_version" type="string"/>
+        <element attributes="edge_encryption_enabled=true" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;var x = g_form.getValue(sys_app.version);&#13;&#10;&#9;return x;  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Application Version" max_length="40" name="application_version" type="string" virtual="true"/>
         <element attributes="edge_encryption_enabled=true" label="Git Branch" max_length="100" name="git_branch" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Git Tag" max_length="100" name="git_tag" type="string"/>
         <element label="Repository" max_length="32" name="repository" reference="sys_repo_config" type="reference"/>

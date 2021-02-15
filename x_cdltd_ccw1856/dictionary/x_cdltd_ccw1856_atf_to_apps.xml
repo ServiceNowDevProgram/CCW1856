@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="ATF to Apps" max_length="40" name="x_cdltd_ccw1856_atf_to_apps" text_index="true" type="collection">
+    <element label="ATF to Apps" max_length="40" name="x_cdltd_ccw1856_atf_to_apps" sizeclass="1" text_index="true" type="collection">
         <element attributes="encode_utf8=false" label="Application" max_length="32" name="application" reference="x_cdltd_ccw1856_dev_scopes" type="reference"/>
         <element attributes="encode_utf8=false" label="Suite" max_length="32" name="suite" reference="sys_atf_test_suite" type="reference"/>
         <index name="index">
