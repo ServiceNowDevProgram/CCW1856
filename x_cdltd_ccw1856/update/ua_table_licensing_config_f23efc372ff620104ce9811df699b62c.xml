@@ -4,22 +4,22 @@
         <license_condition/>
         <license_model>none</license_model>
         <license_roles/>
-        <name>x_cdltd_ccw1856_deployment_request</name>
+        <name>x_cdltd_ccw1856_cicd_pipeline</name>
         <op_delete>true</op_delete>
         <op_insert>true</op_insert>
         <op_update>true</op_update>
         <owner_condition/>
         <sys_class_name>ua_table_licensing_config</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-04-15 00:21:31</sys_created_on>
-        <sys_id>2ee1d20f07322010ba99f4218c1ed002</sys_id>
+        <sys_created_on>2020-04-15 00:17:04</sys_created_on>
+        <sys_id>f23efc372ff620104ce9811df699b62c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_cdltd_ccw1856_deployment_request</sys_name>
+        <sys_name>x_cdltd_ccw1856_cicd_pipeline</sys_name>
         <sys_package display_value="CCW1856" source="x_cdltd_ccw1856">b5a05473908010107f4468f7a3a96f5c</sys_package>
         <sys_policy/>
         <sys_scope display_value="CCW1856">b5a05473908010107f4468f7a3a96f5c</sys_scope>
-        <sys_update_name>ua_table_licensing_config_2ee1d20f07322010ba99f4218c1ed002</sys_update_name>
+        <sys_update_name>ua_table_licensing_config_f23efc372ff620104ce9811df699b62c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-04-15 00:21:31</sys_updated_on>
+        <sys_updated_on>2020-04-15 00:17:04</sys_updated_on>
     </ua_table_licensing_config>
 </record_update>
