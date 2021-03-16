@@ -19,6 +19,7 @@
         <outputs/>
         <remote_trigger_id/>
         <run_as>system</run_as>
+        <run_with_roles/>
         <sc_callable>false</sc_callable>
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
@@ -42,177 +43,6 @@
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=4b06eec707722010ba99f4218c1ed0be"/>
     <sys_variable_value action="delete_multiple" query="document_key=4b06eec707722010ba99f4218c1ed0be"/>
-    <sys_hub_flow_component action="delete_multiple" query="flow=4b06eec707722010ba99f4218c1ed0be^sys_idNOT IN9a17228b07722010ba99f4218c1ed0f9,d217228b07722010ba99f4218c1ed0f3"/>
-    <sys_hub_action_instance action="INSERT_OR_UPDATE">
-        <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
-        <action_type_parent/>
-        <comment/>
-        <compiled_snapshot/>
-        <display_text/>
-        <flow display_value="Remote Deploy from SC">4b06eec707722010ba99f4218c1ed0be</flow>
-        <order>2</order>
-        <parent_ui_id/>
-        <sys_class_name>sys_hub_action_instance</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-03-14 16:05:16</sys_created_on>
-        <sys_id>9a17228b07722010ba99f4218c1ed0f9</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_scope display_value="CCW1856">b5a05473908010107f4468f7a3a96f5c</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-14 16:05:16</sys_updated_on>
-        <ui_id>98c3e50b-83a3-4f63-94bd-8585865c6e8f</ui_id>
-    </sys_hub_action_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=9a17228b07722010ba99f4218c1ed0f9"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_instance</document>
-        <document_key>9a17228b07722010ba99f4218c1ed0f9</document_key>
-        <order>50</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-03-14 16:05:16</sys_created_on>
-        <sys_id>5a17228b07722010ba99f4218c1ed0fc</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-14 16:05:16</sys_updated_on>
-        <value>x_cdltd_ccw1856_deployment_request</value>
-        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_instance</document>
-        <document_key>9a17228b07722010ba99f4218c1ed0f9</document_key>
-        <order>100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-03-14 16:05:16</sys_created_on>
-        <sys_id>9617228b07722010ba99f4218c1ed0fc</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-14 16:05:16</sys_updated_on>
-        <value>state=3^work_notes=Successful in committing to Test</value>
-        <variable display_value="">02d01916c31332002841b63b12d3aeee</variable>
-    </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=9a17228b07722010ba99f4218c1ed0f9"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>record</field>
-        <id>9a17228b07722010ba99f4218c1ed0f9</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-03-14 16:05:16</sys_created_on>
-        <sys_id>5217228b07722010ba99f4218c1ed0fc</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-14 16:05:16</sys_updated_on>
-        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
-        <value>{{Created or Updated_1.current}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>table_name</field>
-        <id>9a17228b07722010ba99f4218c1ed0f9</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-03-14 16:05:16</sys_created_on>
-        <sys_id>9e17228b07722010ba99f4218c1ed0fb</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-14 16:05:16</sys_updated_on>
-        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>values</field>
-        <id>9a17228b07722010ba99f4218c1ed0f9</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-03-14 16:05:16</sys_created_on>
-        <sys_id>1617228b07722010ba99f4218c1ed0fc</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-14 16:05:16</sys_updated_on>
-        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_hub_sub_flow_instance action="INSERT_OR_UPDATE">
-        <comment/>
-        <display_text/>
-        <flow display_value="Remote Deploy from SC">4b06eec707722010ba99f4218c1ed0be</flow>
-        <inputs/>
-        <inputs/>
-        <order>1</order>
-        <parent_ui_id/>
-        <subflow display_value="Apply Changes From Source Control With ID">8990073c77433300d4bdaeca781061e2</subflow>
-        <sys_class_name>sys_hub_sub_flow_instance</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-03-14 16:05:16</sys_created_on>
-        <sys_id>d217228b07722010ba99f4218c1ed0f3</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_scope display_value="CCW1856">b5a05473908010107f4468f7a3a96f5c</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-14 16:05:16</sys_updated_on>
-        <ui_id>8d2aebdf-b37c-4075-8bf1-e4fa58b9e2c7</ui_id>
-    </sys_hub_sub_flow_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=d217228b07722010ba99f4218c1ed0f3"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_sub_flow_instance</document>
-        <document_key>d217228b07722010ba99f4218c1ed0f3</document_key>
-        <order>2</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-03-14 16:05:16</sys_created_on>
-        <sys_id>1617228b07722010ba99f4218c1ed0f7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-14 16:05:16</sys_updated_on>
-        <value>752a91887740001038e286a2681061fb</value>
-        <variable display_value="">8a7d546c77133300d4bdaeca781061ba</variable>
-    </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=d217228b07722010ba99f4218c1ed0f3"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>app_sys_id</field>
-        <id>d217228b07722010ba99f4218c1ed0f3</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-03-14 16:05:16</sys_created_on>
-        <sys_id>9217228b07722010ba99f4218c1ed0f7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-14 16:05:16</sys_updated_on>
-        <table>var__m_sys_hub_flow_input_8990073c77433300d4bdaeca781061e2</table>
-        <value>{{Created or Updated_1.current.application.remote_sys_id}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>branch_name</field>
-        <id>d217228b07722010ba99f4218c1ed0f3</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-03-14 16:05:16</sys_created_on>
-        <sys_id>de17228b07722010ba99f4218c1ed0f6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-14 16:05:16</sys_updated_on>
-        <table>var__m_sys_hub_flow_input_8990073c77433300d4bdaeca781061e2</table>
-        <value>{{Created or Updated_1.current.git_branch}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>credential_alias</field>
-        <id>d217228b07722010ba99f4218c1ed0f3</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-03-14 16:05:16</sys_created_on>
-        <sys_id>1e17228b07722010ba99f4218c1ed0f6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-14 16:05:16</sys_updated_on>
-        <table>var__m_sys_hub_flow_input_8990073c77433300d4bdaeca781061e2</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>instance_url</field>
-        <id>d217228b07722010ba99f4218c1ed0f3</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-03-14 16:05:16</sys_created_on>
-        <sys_id>d217228b07722010ba99f4218c1ed0f6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-14 16:05:16</sys_updated_on>
-        <table>var__m_sys_hub_flow_input_8990073c77433300d4bdaeca781061e2</table>
-        <value>{{Created or Updated_1.current.team.environment_setup.test_environment.instance_url}}</value>
-    </sys_element_mapping>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=4b06eec707722010ba99f4218c1ed0be^sys_idNOT INfa462a4b07722010ba99f4218c1ed0e8"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
@@ -245,7 +75,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-03-14 16:01:45</sys_updated_on>
         <value>state=1^actionCHANGESTO13</value>
-        <variable display_value="">707dd180c32222002841b63b12d3aecb</variable>
+        <variable display_value="Condition">707dd180c32222002841b63b12d3aecb</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_trigger_instance</document>
@@ -259,7 +89,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-03-14 16:01:45</sys_updated_on>
         <value>every</value>
-        <variable display_value="">2b9def50c31132002841b63b12d3ae5b</variable>
+        <variable display_value="Run Trigger">2b9def50c31132002841b63b12d3ae5b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_trigger_instance</document>
@@ -273,7 +103,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-03-14 16:01:45</sys_updated_on>
         <value>x_cdltd_ccw1856_deployment_request</value>
-        <variable display_value="">cf1e1980c32222002841b63b12d3aea0</variable>
+        <variable display_value="Table">cf1e1980c32222002841b63b12d3aea0</variable>
     </sys_variable_value>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=4b06eec707722010ba99f4218c1ed0be^sys_idNOT IN8b06eec707722010ba99f4218c1ed0c0"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -566,7 +396,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-03-14 16:05:16</sys_updated_on>
         <value>x_cdltd_ccw1856_deployment_request</value>
-        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_instance</document>
@@ -580,7 +410,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-03-14 16:05:16</sys_updated_on>
         <value>state=3^work_notes=Successful in committing to Test</value>
-        <variable display_value="">02d01916c31332002841b63b12d3aeee</variable>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=9a17228b07722010ba99f4218c1ed0f9"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -629,6 +459,7 @@
         <order>1</order>
         <parent_ui_id/>
         <subflow display_value="Apply Changes From Source Control With ID">8990073c77433300d4bdaeca781061e2</subflow>
+        <subflow_instance_inputs/>
         <sys_class_name>sys_hub_sub_flow_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-03-14 16:05:16</sys_created_on>
@@ -652,7 +483,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-03-14 16:05:16</sys_updated_on>
         <value>752a91887740001038e286a2681061fb</value>
-        <variable display_value="">8a7d546c77133300d4bdaeca781061ba</variable>
+        <variable display_value="Credential Alias">8a7d546c77133300d4bdaeca781061ba</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=d217228b07722010ba99f4218c1ed0f3"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
@@ -731,11 +562,11 @@
         <sys_created_on>2021-03-14 16:01:44</sys_created_on>
         <sys_id>36462a4b07722010ba99f4218c1ed0e5</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table Name</sys_name>
         <sys_package display_value="CCW1856" source="x_cdltd_ccw1856">b5a05473908010107f4468f7a3a96f5c</sys_package>
         <sys_policy/>
         <sys_scope display_value="CCW1856">b5a05473908010107f4468f7a3a96f5c</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_4b06eec707722010ba99f4218c1ed0be_table_name_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-03-14 16:01:44</sys_updated_on>
         <url/>
@@ -754,7 +585,7 @@
         <sys_created_on>2021-03-14 16:01:44</sys_created_on>
         <sys_id>fe462a4b07722010ba99f4218c1ed0d9</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Record</sys_name>
         <sys_package display_value="CCW1856" source="x_cdltd_ccw1856">b5a05473908010107f4468f7a3a96f5c</sys_package>
         <sys_policy/>
         <sys_scope display_value="CCW1856">b5a05473908010107f4468f7a3a96f5c</sys_scope>
@@ -777,7 +608,7 @@
         <sys_created_on>2021-03-14 16:01:44</sys_created_on>
         <sys_id>fe462a4b07722010ba99f4218c1ed0df</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Changed Fields</sys_name>
         <sys_package display_value="CCW1856" source="x_cdltd_ccw1856">b5a05473908010107f4468f7a3a96f5c</sys_package>
         <sys_policy/>
         <sys_scope display_value="CCW1856">b5a05473908010107f4468f7a3a96f5c</sys_scope>
