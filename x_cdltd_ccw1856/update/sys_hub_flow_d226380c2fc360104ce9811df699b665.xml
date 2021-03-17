@@ -11,10 +11,10 @@
         <copied_from_name/>
         <description/>
         <internal_name>update_deployment_request_to_ready_for_qa</internal_name>
-        <label_cache>[{"name":"Created or Updated_1.current","label":"Trigger➛Deployment Request Record","reference":"x_cdltd_ccw1856_deployment_request","reference_display":"Deployment Request","type":"reference","base_type":"reference","attributes":{}},{"name":"fdfa07f1-35d3-495e-9287-2ebd74475871.table_name","label":"2➛Deployment Request Table","reference":"x_cdltd_ccw1856_deployment_request","reference_display":"Deployment Request Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"fdfa07f1-35d3-495e-9287-2ebd74475871.record","label":"2➛Deployment Request Record","reference":"x_cdltd_ccw1856_deployment_request","reference_display":"Deployment Request Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f566dfdf-a393-4aa1-87db-779cf66691f7.record","label":"1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f566dfdf-a393-4aa1-87db-779cf66691f7.table_name","label":"1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2898978a-a6df-43e0-aa04-09085c4446f3.record","label":"1➛Deployment Request Record","reference":"x_cdltd_ccw1856_deployment_request","reference_display":"Deployment Request Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2898978a-a6df-43e0-aa04-09085c4446f3.table_name","label":"1➛Deployment Request Table","reference":"x_cdltd_ccw1856_deployment_request","reference_display":"Deployment Request Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <label_cache>[{"name":"2898978a-a6df-43e0-aa04-09085c4446f3.table_name","label":"1➛Deployment Request Table","reference":"x_cdltd_ccw1856_deployment_request","reference_display":"Deployment Request Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2898978a-a6df-43e0-aa04-09085c4446f3.record","label":"1➛Deployment Request Record","reference":"x_cdltd_ccw1856_deployment_request","reference_display":"Deployment Request Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f566dfdf-a393-4aa1-87db-779cf66691f7.table_name","label":"1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f566dfdf-a393-4aa1-87db-779cf66691f7.record","label":"1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"fdfa07f1-35d3-495e-9287-2ebd74475871.record","label":"2➛Deployment Request Record","reference":"x_cdltd_ccw1856_deployment_request","reference_display":"Deployment Request Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"fdfa07f1-35d3-495e-9287-2ebd74475871.table_name","label":"2➛Deployment Request Table","reference":"x_cdltd_ccw1856_deployment_request","reference_display":"Deployment Request Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current","label":"Trigger➛Deployment Request Record","reference":"x_cdltd_ccw1856_deployment_request","reference_display":"Deployment Request","type":"reference","base_type":"reference","attributes":{}}]</label_cache>
         <latest_snapshot/>
         <master_snapshot/>
-        <name>Update Deployment Request to Ready for QA</name>
+        <name>Development complete Queue Deployment</name>
         <natlang/>
         <outputs/>
         <remote_trigger_id/>
@@ -30,15 +30,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d226380c2fc360104ce9811df699b665</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>Update Deployment Request to Ready for QA</sys_name>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Development complete Queue Deployment</sys_name>
         <sys_overrides/>
         <sys_package display_value="CCW1856" source="x_cdltd_ccw1856">b5a05473908010107f4468f7a3a96f5c</sys_package>
         <sys_policy/>
         <sys_scope display_value="CCW1856">b5a05473908010107f4468f7a3a96f5c</sys_scope>
         <sys_update_name>sys_hub_flow_d226380c2fc360104ce9811df699b665</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-17 10:33:30</sys_updated_on>
+        <sys_updated_on>2021-03-17 11:29:12</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=d226380c2fc360104ce9811df699b665"/>
@@ -47,16 +47,16 @@
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
         <display_text/>
-        <flow display_value="Update Deployment Request to Ready for QA">d226380c2fc360104ce9811df699b665</flow>
+        <flow display_value="Development complete Queue Deployment">d226380c2fc360104ce9811df699b665</flow>
         <name>Created or Updated</name>
         <remote_sys_id/>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-03-17 10:27:42</sys_created_on>
         <sys_id>2296bc0c2fc360104ce9811df699b6a3</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-17 10:33:29</sys_updated_on>
+        <sys_updated_on>2021-03-17 11:29:11</sys_updated_on>
         <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -143,7 +143,7 @@
         <label>Record</label>
         <mandatory>true</mandatory>
         <max_length>200</max_length>
-        <model display_value="Update Deployment Request to Ready for QA">d226380c2fc360104ce9811df699b665</model>
+        <model display_value="Development complete Queue Deployment">d226380c2fc360104ce9811df699b665</model>
         <model_id>d226380c2fc360104ce9811df699b665</model_id>
         <model_table>sys_hub_flow</model_table>
         <name>var__m_sys_hub_flow_input_d226380c2fc360104ce9811df699b665</name>
@@ -189,7 +189,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDd7e7748c03c36010f33ebd23c0c081b1,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -224,7 +224,7 @@
         <label>Changed Fields</label>
         <mandatory>false</mandatory>
         <max_length>4000</max_length>
-        <model display_value="Update Deployment Request to Ready for QA">d226380c2fc360104ce9811df699b665</model>
+        <model display_value="Development complete Queue Deployment">d226380c2fc360104ce9811df699b665</model>
         <model_id>d226380c2fc360104ce9811df699b665</model_id>
         <model_table>sys_hub_flow</model_table>
         <name>var__m_sys_hub_flow_input_d226380c2fc360104ce9811df699b665</name>
@@ -247,14 +247,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-03-17 10:27:42</sys_created_on>
         <sys_id>6e96bc0c2fc360104ce9811df699b695</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="CCW1856">b5a05473908010107f4468f7a3a96f5c</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-17 10:33:29</sys_updated_on>
+        <sys_updated_on>2021-03-17 11:29:10</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -305,7 +305,7 @@
         <label>Table Name</label>
         <mandatory>false</mandatory>
         <max_length>200</max_length>
-        <model display_value="Update Deployment Request to Ready for QA">d226380c2fc360104ce9811df699b665</model>
+        <model display_value="Development complete Queue Deployment">d226380c2fc360104ce9811df699b665</model>
         <model_id>d226380c2fc360104ce9811df699b665</model_id>
         <model_table>sys_hub_flow</model_table>
         <name>var__m_sys_hub_flow_input_d226380c2fc360104ce9811df699b665</name>
@@ -356,17 +356,17 @@
         <comment>Deployment to QA Done</comment>
         <compiled_snapshot/>
         <display_text/>
-        <flow display_value="Update Deployment Request to Ready for QA">d226380c2fc360104ce9811df699b665</flow>
+        <flow display_value="Development complete Queue Deployment">d226380c2fc360104ce9811df699b665</flow>
         <order>2</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-03-17 10:32:12</sys_created_on>
         <sys_id>2ca7708c2fc360104ce9811df699b6c1</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="CCW1856">b5a05473908010107f4468f7a3a96f5c</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-17 10:33:30</sys_updated_on>
+        <sys_updated_on>2021-03-17 11:29:11</sys_updated_on>
         <ui_id>fdfa07f1-35d3-495e-9287-2ebd74475871</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2ca7708c2fc360104ce9811df699b6c1"/>
@@ -442,17 +442,17 @@
         <comment>Deployment to QA Kick started</comment>
         <compiled_snapshot/>
         <display_text/>
-        <flow display_value="Update Deployment Request to Ready for QA">d226380c2fc360104ce9811df699b665</flow>
+        <flow display_value="Development complete Queue Deployment">d226380c2fc360104ce9811df699b665</flow>
         <order>1</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-03-17 10:27:42</sys_created_on>
         <sys_id>aa96bc0c2fc360104ce9811df699b6a8</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="CCW1856">b5a05473908010107f4468f7a3a96f5c</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-17 10:33:30</sys_updated_on>
+        <sys_updated_on>2021-03-17 11:29:11</sys_updated_on>
         <ui_id>2898978a-a6df-43e0-aa04-09085c4446f3</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=aa96bc0c2fc360104ce9811df699b6a8"/>
@@ -512,7 +512,7 @@
         <sys_created_on>2021-03-17 10:27:42</sys_created_on>
         <sys_id>2696bc0c2fc360104ce9811df699b69a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Changed Fields</sys_name>
         <sys_package display_value="CCW1856" source="x_cdltd_ccw1856">b5a05473908010107f4468f7a3a96f5c</sys_package>
         <sys_policy/>
         <sys_scope display_value="CCW1856">b5a05473908010107f4468f7a3a96f5c</sys_scope>
@@ -535,7 +535,7 @@
         <sys_created_on>2021-03-17 10:27:42</sys_created_on>
         <sys_id>6696bc0c2fc360104ce9811df699b694</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Record</sys_name>
         <sys_package display_value="CCW1856" source="x_cdltd_ccw1856">b5a05473908010107f4468f7a3a96f5c</sys_package>
         <sys_policy/>
         <sys_scope display_value="CCW1856">b5a05473908010107f4468f7a3a96f5c</sys_scope>
@@ -558,7 +558,7 @@
         <sys_created_on>2021-03-17 10:27:42</sys_created_on>
         <sys_id>6e96bc0c2fc360104ce9811df699b69f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table Name</sys_name>
         <sys_package display_value="CCW1856" source="x_cdltd_ccw1856">b5a05473908010107f4468f7a3a96f5c</sys_package>
         <sys_policy/>
         <sys_scope display_value="CCW1856">b5a05473908010107f4468f7a3a96f5c</sys_scope>
