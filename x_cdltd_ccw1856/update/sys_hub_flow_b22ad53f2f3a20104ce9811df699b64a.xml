@@ -11,7 +11,7 @@
         <copied_from_name/>
         <description>Deploy Application into the remote instance from Source Control.</description>
         <internal_name>remote_deploy_from_source_control</internal_name>
-        <label_cache>[{"name":"Created or Updated_1.current.git_branch","label":"Trigger➛Deployment Request Record➛Git Branch","reference":"","reference_display":"Git Branch","type":"string","base_type":"string","parent_table_name":"x_cdltd_ccw1856_deployment_request","column_name":"git_branch"},{"name":"Created or Updated_1.current.team.environment_setup.test_environment.instance_url","label":"Trigger➛Deployment Request Record➛Team➛Environment Setup➛Test Environment➛Instance URL","reference":"","reference_display":"Instance URL","type":"url","base_type":"url","parent_table_name":"x_cdltd_ccw1856_environments","column_name":"instance_url"},{"name":"Created or Updated_1.current.application.remote_sys_id","label":"Trigger➛Deployment Request Record➛Application➛Remote Sys ID","reference":"","reference_display":"Remote Sys ID","type":"string","base_type":"string","parent_table_name":"x_cdltd_ccw1856_dev_scopes","column_name":"remote_sys_id"},{"name":"Created or Updated_1.current","label":"Trigger➛Deployment Request Record","reference":"x_cdltd_ccw1856_deployment_request","reference_display":"Deployment Request","type":"reference","base_type":"reference","attributes":{}},{"name":"2d3ae74e-75d0-4a8a-9c80-5ad36ddc7bd8.context","label":"1➛Context","reference":"sys_flow_context","reference_display":"Context","type":"reference","base_type":"reference","attributes":{}},{"name":"c7f9c6dd-7c2a-44cd-a12a-5df1e657aecd.record","label":"2➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c7f9c6dd-7c2a-44cd-a12a-5df1e657aecd.table_name","label":"2➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <label_cache>[{"name":"Created or Updated_1.current.team.environment_setup.qa_environment.instance_url","label":"Trigger➛Deployment Request Record➛Team➛Environment Setup➛QA Environment➛Instance URL","reference":"","reference_display":"Instance URL","type":"url","base_type":"url","parent_table_name":"x_cdltd_ccw1856_environments","column_name":"instance_url"},{"name":"Created or Updated_1.current.git_branch","label":"Trigger➛Deployment Request Record➛Git Branch","reference":"","reference_display":"Git Branch","type":"string","base_type":"string","parent_table_name":"x_cdltd_ccw1856_deployment_request","column_name":"git_branch"},{"name":"Created or Updated_1.current.team.environment_setup.test_environment.instance_url","label":"Trigger➛Deployment Request Record➛Team➛Environment Setup➛Test Environment➛Instance URL","reference":"","reference_display":"Instance URL","type":"url","base_type":"url","parent_table_name":"x_cdltd_ccw1856_environments","column_name":"instance_url"},{"name":"Created or Updated_1.current.application.remote_sys_id","label":"Trigger➛Deployment Request Record➛Application➛Remote Sys ID","reference":"","reference_display":"Remote Sys ID","type":"string","base_type":"string","parent_table_name":"x_cdltd_ccw1856_dev_scopes","column_name":"remote_sys_id"},{"name":"Created or Updated_1.current","label":"Trigger➛Deployment Request Record","reference":"x_cdltd_ccw1856_deployment_request","reference_display":"Deployment Request","type":"reference","base_type":"reference","attributes":{}},{"name":"2d3ae74e-75d0-4a8a-9c80-5ad36ddc7bd8.context","label":"1➛Context","reference":"sys_flow_context","reference_display":"Context","type":"reference","base_type":"reference","attributes":{}},{"name":"c7f9c6dd-7c2a-44cd-a12a-5df1e657aecd.record","label":"2➛Deployment Request Record","reference":"x_cdltd_ccw1856_deployment_request","reference_display":"Deployment Request Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c7f9c6dd-7c2a-44cd-a12a-5df1e657aecd.table_name","label":"2➛Deployment Request Table","reference":"x_cdltd_ccw1856_deployment_request","reference_display":"Deployment Request Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
         <latest_snapshot/>
         <master_snapshot/>
         <name>Remote Deploy from Dev to QA</name>
@@ -30,7 +30,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b22ad53f2f3a20104ce9811df699b64a</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Remote Deploy from Dev to QA</sys_name>
         <sys_overrides/>
         <sys_package display_value="CCW1856" source="x_cdltd_ccw1856">b5a05473908010107f4468f7a3a96f5c</sys_package>
@@ -38,7 +38,7 @@
         <sys_scope display_value="CCW1856">b5a05473908010107f4468f7a3a96f5c</sys_scope>
         <sys_update_name>sys_hub_flow_b22ad53f2f3a20104ce9811df699b64a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-17 11:34:55</sys_updated_on>
+        <sys_updated_on>2021-03-17 12:17:43</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=b22ad53f2f3a20104ce9811df699b64a"/>
@@ -53,10 +53,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-03-16 18:33:59</sys_created_on>
         <sys_id>485c19bf2f3a20104ce9811df699b613</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-17 11:34:54</sys_updated_on>
+        <sys_updated_on>2021-03-17 12:17:42</sys_updated_on>
         <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -377,10 +377,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-03-17 11:34:55</sys_created_on>
         <sys_id>03f5c54c2f0760104ce9811df699b60a</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="CCW1856">b5a05473908010107f4468f7a3a96f5c</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-17 11:34:55</sys_updated_on>
+        <sys_updated_on>2021-03-17 12:17:42</sys_updated_on>
         <ui_id>c7f9c6dd-7c2a-44cd-a12a-5df1e657aecd</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=03f5c54c2f0760104ce9811df699b60a"/>
@@ -464,10 +464,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-03-16 18:33:59</sys_created_on>
         <sys_id>085c19bf2f3a20104ce9811df699b616</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope display_value="CCW1856">b5a05473908010107f4468f7a3a96f5c</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-17 11:34:54</sys_updated_on>
+        <sys_updated_on>2021-03-17 12:17:42</sys_updated_on>
         <ui_id>2d3ae74e-75d0-4a8a-9c80-5ad36ddc7bd8</ui_id>
     </sys_hub_sub_flow_instance>
     <sys_variable_value action="delete_multiple" query="document_key=085c19bf2f3a20104ce9811df699b616"/>
@@ -479,10 +479,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-03-16 18:34:00</sys_created_on>
         <sys_id>905c19bf2f3a20104ce9811df699b653</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-16 18:34:00</sys_updated_on>
-        <value>791478b790c010107f4468f7a3a96f4f</value>
+        <sys_updated_on>2021-03-17 12:17:42</sys_updated_on>
+        <value>bbfc05c42f4760104ce9811df699b6ed</value>
         <variable display_value="Credential Alias">8a7d546c77133300d4bdaeca781061ba</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=085c19bf2f3a20104ce9811df699b616"/>
@@ -528,11 +528,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-03-16 18:34:00</sys_created_on>
         <sys_id>d05c19bf2f3a20104ce9811df699b652</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-16 18:34:00</sys_updated_on>
+        <sys_updated_on>2021-03-17 12:08:37</sys_updated_on>
         <table>var__m_sys_hub_flow_input_8990073c77433300d4bdaeca781061e2</table>
-        <value>{{Created or Updated_1.current.team.environment_setup.test_environment.instance_url}}</value>
+        <value>{{Created or Updated_1.current.team.environment_setup.qa_environment.instance_url}}</value>
     </sys_element_mapping>
     <sys_hub_sub_flow_instance_inputs action="delete_multiple" query="model=085c19bf2f3a20104ce9811df699b616^sys_idNOT IN505c19bf2f3a20104ce9811df699b618"/>
     <sys_hub_sub_flow_instance_inputs action="INSERT_OR_UPDATE">
@@ -571,7 +571,7 @@
         <help/>
         <hint/>
         <internal_type display_value="">boolean</internal_type>
-        <label>Wait For Completion</label>
+        <label>wait_for_completion</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
         <model display_value="">085c19bf2f3a20104ce9811df699b616</model>
@@ -597,14 +597,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-03-16 18:33:59</sys_created_on>
         <sys_id>505c19bf2f3a20104ce9811df699b618</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="CCW1856">b5a05473908010107f4468f7a3a96f5c</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-16 18:33:59</sys_updated_on>
+        <sys_updated_on>2021-03-17 12:08:36</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
