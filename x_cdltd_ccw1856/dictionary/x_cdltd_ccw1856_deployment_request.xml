@@ -15,6 +15,7 @@
         <element attributes="edge_encryption_enabled=true" label="Git Branch" max_length="100" name="git_branch" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Git Tag" max_length="100" name="git_tag" type="string"/>
         <element label="Repository" max_length="32" name="repository" reference="sys_repo_config" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Story" max_length="32" name="story" reference="rm_story" type="reference"/>
         <element attributes="encode_utf8=false" label="Team" max_length="32" name="team" reference="x_cdltd_ccw1856_cicd_team_setup" type="reference"/>
     </element>
 </database>
