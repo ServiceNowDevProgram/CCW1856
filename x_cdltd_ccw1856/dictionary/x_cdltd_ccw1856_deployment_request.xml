@@ -2,11 +2,9 @@
     <element audit="true" extends="task" label="Deployment Request" max_length="40" name="x_cdltd_ccw1856_deployment_request" sizeclass="1" text_index="true" type="collection">
         <element attributes="edge_encryption_enabled=true" choice="1" default="11" label="Action" max_length="40" name="action" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Local Testing" sequence="10" value="Local Testing"/>
-                <element inactive_on_update="false" label="QA Deploy" sequence="20" value="QA Deploy"/>
-                <element inactive_on_update="false" label="QA Testing" sequence="30" value="QA Testing"/>
-                <element inactive_on_update="false" label="Prod Deploy" sequence="40" value="Prod Deploy"/>
-                <element inactive_on_update="false" label="Closed" sequence="50" value="Closed"/>
+                <element inactive_on_update="false" label="Local Testing" value="11"/>
+                <element inactive_on_update="false" label="Remote Deploy" value="13"/>
+                <element inactive_on_update="false" label="Remote Testing" value="12"/>
             </choice>
         </element>
         <element attributes="encode_utf8=false" label="Application" max_length="32" name="application" reference="x_cdltd_ccw1856_dev_scopes" type="reference"/>
