@@ -18,7 +18,7 @@
         <filter_condition/>
         <is_rest>false</is_rest>
         <message/>
-        <name>This is a Test BU1</name>
+        <name>Check for PipeLine New 1</name>
         <order>100</order>
         <priority>100</priority>
         <rest_method/>
@@ -49,15 +49,15 @@ gs.addInfoMessage("Test this");
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>7111268707722010ba99f4218c1ed05c</sys_id>
-        <sys_mod_count>11</sys_mod_count>
-        <sys_name>This is a Test BU1</sys_name>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>Check for PipeLine New 1</sys_name>
         <sys_overrides/>
         <sys_package display_value="CCW1856" source="x_cdltd_ccw1856">b5a05473908010107f4468f7a3a96f5c</sys_package>
         <sys_policy/>
         <sys_scope display_value="CCW1856">b5a05473908010107f4468f7a3a96f5c</sys_scope>
         <sys_update_name>sys_script_7111268707722010ba99f4218c1ed05c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-17 12:47:03</sys_updated_on>
+        <sys_updated_on>2021-03-17 12:53:53</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
