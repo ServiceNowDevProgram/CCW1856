@@ -42,13 +42,13 @@
         <reference_qual/>
         <reference_qual_condition/>
         <reference_type/>
-        <sizeclass/>
+        <sizeclass>4</sizeclass>
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-04-15 00:13:09</sys_created_on>
-        <sys_id>281f93b3904810107f4468f7a3a96fe4</sys_id>
+        <sys_id>de3ebc372ff620104ce9811df699b671</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_cdltd_ccw1856_environments</sys_name>
         <sys_package display_value="CCW1856" source="x_cdltd_ccw1856">b5a05473908010107f4468f7a3a96f5c</sys_package>
@@ -56,7 +56,7 @@
         <sys_scope display_value="CCW1856">b5a05473908010107f4468f7a3a96f5c</sys_scope>
         <sys_update_name>sys_dictionary_x_cdltd_ccw1856_environments_NULL</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-04-15 15:01:35</sys_updated_on>
+        <sys_updated_on>2021-03-17 10:18:54</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>true</text_index>
         <unique>false</unique>

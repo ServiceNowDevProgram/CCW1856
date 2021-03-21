@@ -48,7 +48,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-04-15 00:25:14</sys_updated_on>
         <value>Lists</value>
-        <variable display_value="">b5b65fd20c3c13fbd299dce1ef797184</variable>
+        <variable display_value="label">b5b65fd20c3c13fbd299dce1ef797184</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_ux_custom_content_root_elem</document>
@@ -62,7 +62,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-04-15 00:25:14</sys_updated_on>
         <value>list-outline</value>
-        <variable display_value="">674bdc908b8ed17eb631bec92971a228</variable>
+        <variable display_value="icon">674bdc908b8ed17eb631bec92971a228</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_ux_custom_content_root_elem</document>
@@ -76,6 +76,6 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-04-15 00:25:14</sys_updated_on>
         <value>list</value>
-        <variable display_value="">f497a95e69778d0f72f3f0d2df450266</variable>
+        <variable display_value="module-id">f497a95e69778d0f72f3f0d2df450266</variable>
     </sys_variable_value>
 </record_update>

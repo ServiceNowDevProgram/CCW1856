@@ -48,6 +48,6 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-04-15 00:25:14</sys_updated_on>
         <value>list</value>
-        <variable display_value="">1be7ac060f603300bb57f4a1ff767e52</variable>
+        <variable display_value="module_id">1be7ac060f603300bb57f4a1ff767e52</variable>
     </sys_variable_value>
 </record_update>

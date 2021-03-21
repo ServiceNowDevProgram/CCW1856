@@ -1,69 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_choice action="INSERT_OR_UPDATE" field="action" table="x_cdltd_ccw1856_deployment_request" version="3">
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>action</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Local Testing</label>
-            <language>en</language>
-            <name>x_cdltd_ccw1856_deployment_request</name>
-            <sequence/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-04-15 00:21:33</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>eba55837908010107f4468f7a3a96fab</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-04-15 00:21:33</sys_updated_on>
-            <value>11</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>action</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Remote Testing</label>
-            <language>en</language>
-            <name>x_cdltd_ccw1856_deployment_request</name>
-            <sequence/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-04-15 00:21:33</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>27a55837908010107f4468f7a3a96fb2</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-04-15 00:21:33</sys_updated_on>
-            <value>12</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>action</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Remote Deploy</label>
-            <language>en</language>
-            <name>x_cdltd_ccw1856_deployment_request</name>
-            <sequence/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-04-15 00:21:33</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>67a55837908010107f4468f7a3a96faf</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-04-15 00:21:33</sys_updated_on>
-            <value>13</value>
-        </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
             <element>action</element>
             <name>x_cdltd_ccw1856_deployment_request</name>
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-04-15 00:21:33</sys_created_on>
-            <sys_id>e42f9bb3904810107f4468f7a3a96f8f</sys_id>
+            <sys_id>6369cd002f4760104ce9811df699b6e2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>action</sys_name>
             <sys_package display_value="CCW1856" source="x_cdltd_ccw1856">b5a05473908010107f4468f7a3a96f5c</sys_package>
@@ -73,5 +16,85 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2020-04-15 00:21:33</sys_updated_on>
         </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>action</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Dev Testing</label>
+            <language>en</language>
+            <name>x_cdltd_ccw1856_deployment_request</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-04-15 00:21:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>eba55837908010107f4468f7a3a96fab</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-17 11:32:04</sys_updated_on>
+            <value>Dev Testing</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>action</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>QA Deploy</label>
+            <language>en</language>
+            <name>x_cdltd_ccw1856_deployment_request</name>
+            <sequence>200</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-04-15 00:21:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>67a55837908010107f4468f7a3a96faf</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-17 11:32:09</sys_updated_on>
+            <value>QA Deploy</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>action</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>QA Testing</label>
+            <language>en</language>
+            <name>x_cdltd_ccw1856_deployment_request</name>
+            <sequence>300</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-04-15 00:21:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>27a55837908010107f4468f7a3a96fb2</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-17 11:32:41</sys_updated_on>
+            <value>QA Testing</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>action</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Prod Deploy</label>
+            <language>en</language>
+            <name>x_cdltd_ccw1856_deployment_request</name>
+            <sequence>400</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-17 11:32:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7235850c2f0760104ce9811df699b664</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-17 11:32:32</sys_updated_on>
+            <value>Prod Deploy</value>
+        </sys_choice>
     </sys_choice>
 </record_update>
