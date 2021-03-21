@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="CICD Pipeline" max_length="40" name="x_cdltd_ccw1856_cicd_pipeline" text_index="true" type="collection">
+    <element label="CICD Pipeline" max_length="40" name="x_cdltd_ccw1856_cicd_pipeline" sizeclass="1" text_index="true" type="collection">
         <element attributes="encode_utf8=false" label="Dev Environment" max_length="32" name="dev_environment" reference="x_cdltd_ccw1856_environments" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Name" max_length="80" name="name" type="string"/>
         <element attributes="encode_utf8=false" label="Prod Environment" max_length="32" name="prod_environment" reference="x_cdltd_ccw1856_environments" type="reference"/>

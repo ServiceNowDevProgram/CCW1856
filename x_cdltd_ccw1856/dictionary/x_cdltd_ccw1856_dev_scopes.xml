@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Dev Scopes" max_length="40" name="x_cdltd_ccw1856_dev_scopes" text_index="true" type="collection">
+    <element label="Dev Scopes" max_length="40" name="x_cdltd_ccw1856_dev_scopes" sizeclass="1" text_index="true" type="collection">
         <element label="Active" max_length="40" name="active" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Name" max_length="100" name="name" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Remote Sys ID" max_length="40" name="remote_sys_id" type="string"/>

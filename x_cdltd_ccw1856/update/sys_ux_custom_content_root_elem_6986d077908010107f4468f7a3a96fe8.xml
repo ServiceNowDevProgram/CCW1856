@@ -48,6 +48,6 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-04-15 00:25:15</sys_updated_on>
         <value>inbox</value>
-        <variable display_value="">eb9768c27360330075e8f358caf6a75c</variable>
+        <variable display_value="module_id">eb9768c27360330075e8f358caf6a75c</variable>
     </sys_variable_value>
 </record_update>
