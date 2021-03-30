@@ -1,13 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_property">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
     <sys_ux_page_property action="INSERT_OR_UPDATE">
         <choices/>
         <description>Show/Hide search component in workspace header</description>
         <name>ws_active_search</name>
         <page display_value="CCW1856">72765077908010107f4468f7a3a96f1d</page>
+        <required_translations/>
+        <route/>
         <suffix/>
         <sys_class_name>sys_ux_page_property</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-04-15 00:25:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
         <sys_id>b6765077908010107f4468f7a3a96f22</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>ws_active_search</sys_name>
