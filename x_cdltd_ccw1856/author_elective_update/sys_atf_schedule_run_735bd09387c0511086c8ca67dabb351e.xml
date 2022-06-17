@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_schedule_run">
+    <sys_atf_schedule_run action="DELETE">
+        <active>true</active>
+        <browser_name>any</browser_name>
+        <browser_version/>
+        <description>Run suite 'CCW1856 Suite' on a system with this configuration:
+Any browser on any version
+Any operating system on any version</description>
+        <order>100</order>
+        <os_name>any</os_name>
+        <os_version/>
+        <schedule display_value="CICD adhoc schedule">eb5b945387c0511086c8ca67dabb3560</schedule>
+        <sys_class_name>sys_atf_schedule_run</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-17 20:14:04</sys_created_on>
+        <sys_id>735bd09387c0511086c8ca67dabb351e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>100</sys_name>
+        <sys_package display_value="CCW1856" source="x_cdltd_ccw1856">b5a05473908010107f4468f7a3a96f5c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CCW1856">b5a05473908010107f4468f7a3a96f5c</sys_scope>
+        <sys_update_name>sys_atf_schedule_run_735bd09387c0511086c8ca67dabb351e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-17 20:14:04</sys_updated_on>
+        <test_suite display_value="CCW1856 Suite">02ebc8138780511086c8ca67dabb3511</test_suite>
+        <watch_list/>
+    </sys_atf_schedule_run>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CCW1856">b5a05473908010107f4468f7a3a96f5c</application>
+        <file_path/>
+        <instance_id>ceddf9dedbc381108aea21c40596196f</instance_id>
+        <instance_name>dev126486</instance_name>
+        <name>sys_atf_schedule_run_735bd09387c0511086c8ca67dabb351e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_schedule_run"><sys_atf_schedule_run action="INSERT_OR_UPDATE"><active>true</active><browser_name>any</browser_name><browser_version/><description>Run suite 'CCW1856 Suite' on a system with this configuration:
+Any browser on any version
+Any operating system on any version</description><order>100</order><os_name>any</os_name><os_version/><schedule display_value="CICD adhoc schedule">eb5b945387c0511086c8ca67dabb3560</schedule><sys_class_name>sys_atf_schedule_run</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-06-17 20:14:04</sys_created_on><sys_id>735bd09387c0511086c8ca67dabb351e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>100</sys_name><sys_package display_value="CCW1856" source="x_cdltd_ccw1856">b5a05473908010107f4468f7a3a96f5c</sys_package><sys_policy/><sys_scope display_value="CCW1856">b5a05473908010107f4468f7a3a96f5c</sys_scope><sys_update_name>sys_atf_schedule_run_735bd09387c0511086c8ca67dabb351e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-06-17 20:14:04</sys_updated_on><test_suite display_value="CCW1856 Suite">02ebc8138780511086c8ca67dabb3511</test_suite><watch_list/></sys_atf_schedule_run></record_update>]]></payload>
+        <payload_hash>-1715872571</payload_hash>
+        <record_name>100</record_name>
+        <reverted_from/>
+        <source>6327401f8740511086c8ca67dabb35c8</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-17 20:14:04</sys_created_on>
+        <sys_id>fb5bd09387c0511086c8ca67dabb3523</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>181734d246b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-17 20:14:04</sys_updated_on>
+        <type>Scheduled Suite Run</type>
+        <update_guid>375bd0930ec05110752cefedef20fb23</update_guid>
+        <update_guid_history>375bd0930ec05110752cefedef20fb23:-1715872571</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-17 20:14:05</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_schedule_run">sys_atf_schedule_run</sys_db_object>
+        <sys_id>121b41389d0242ae88faa07c4a0af044</sys_id>
+        <sys_metadata>735bd09387c0511086c8ca67dabb351e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>100</sys_name>
+        <sys_package display_value="CCW1856" source="x_cdltd_ccw1856">b5a05473908010107f4468f7a3a96f5c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CCW1856">b5a05473908010107f4468f7a3a96f5c</sys_scope>
+        <sys_scope_delete display_value="">c342593af4a2410681f0669efc1611a4</sys_scope_delete>
+        <sys_update_name>sys_atf_schedule_run_735bd09387c0511086c8ca67dabb351e</sys_update_name>
+        <sys_update_version display_value="sys_atf_schedule_run_735bd09387c0511086c8ca67dabb351e">fb5bd09387c0511086c8ca67dabb3523</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-17 20:14:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
