@@ -10,11 +10,11 @@
         <license_model>none</license_model>
         <logo/>
         <menu/>
-        <name>CCW1856</name>
+        <name>CCW1857</name>
         <private>false</private>
         <restrict_table_access>false</restrict_table_access>
         <runtime_access_tracking>permissive</runtime_access_tracking>
-        <scope>x_cdltd_ccw1856</scope>
+        <scope>x_cdltd_ccw1857</scope>
         <scoped_administration>false</scoped_administration>
         <short_description>Example Workshop for CICD</short_description>
         <source>x_cdltd_ccw1856</source>
