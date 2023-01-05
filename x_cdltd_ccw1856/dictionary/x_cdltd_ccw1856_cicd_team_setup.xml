@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="CICD Team Setup" max_length="40" name="x_cdltd_ccw1856_cicd_team_setup" text_index="true" type="collection">
-        <element attributes="encode_utf8=false" label="Environment Setup" max_length="32" name="environment_setup" reference="x_cdltd_ccw1856_cicd_pipeline" type="reference"/>
-        <element attributes="encode_utf8=false" label="Name" max_length="32" name="name" reference="sys_user_group" type="reference"/>
+    <element label="CICD Team Setup" max_length="40" name="x_cdltd_ccw1856_cicd_team_setup" sizeclass="1" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Environment Setup" max_length="32" name="environment_setup" reference="x_cdltd_ccw1856_cicd_pipeline" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Name" max_length="32" name="name" reference="sys_user_group" type="reference"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Slack Webhook" max_length="200" name="slack_webhook" type="string"/>
         <index name="index">

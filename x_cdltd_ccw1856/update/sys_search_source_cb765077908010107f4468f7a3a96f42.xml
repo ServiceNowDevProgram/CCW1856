@@ -2,7 +2,9 @@
     <sys_search_source action="INSERT_OR_UPDATE">
         <active>true</active>
         <condition/>
+        <group/>
         <name>ATF to Apps</name>
+        <roles/>
         <source_table>x_cdltd_ccw1856_atf_to_apps</source_table>
         <sys_class_name>sys_search_source</sys_class_name>
         <sys_created_by>admin</sys_created_by>
