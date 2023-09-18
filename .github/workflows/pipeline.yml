@@ -32,3 +32,5 @@ jobs:
     # what to install.
     outputs:
       publishversion: ${{ steps.publish_app.outputs.newVersion }}
+
+#test
