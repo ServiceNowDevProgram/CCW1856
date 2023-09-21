@@ -34,10 +34,10 @@ jobs:
           # Optional, add +X to version number. Default: 1 
           # incrementBy: X
         env:
-          nowUsername: ${{ secrets.SN_USERNAME }}
-          nowPassword: ${{ secrets.SN_PASSWORD }}
-          nowSourceInstance: ${{ secrets.SN_DEV_INSTANCE }}
-          appSysID: ${{ secrets.SN_APP_SYSID }}
+          nowUsername: ${{ secrets.NOW_USERNAME }}
+          nowPassword: ${{ secrets.NOW_PASSWORD }}
+          nowSourceInstance: ${{ secrets.NOW_SOURCE_INSTANCE }}
+          appSysID: ${{ secrets.APP_SYS_ID }}
           
     # This is required to pass the version number output from Publish App 
     # to the input for Install App in the next job! This is because the jobs 
