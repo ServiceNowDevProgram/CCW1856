@@ -28,7 +28,9 @@
         <rest_variables/>
         <role_conditions/>
         <script><![CDATA[ (function executeRule(current, previous /*null when async*/ ) {
-
+		
+	 // comment -1 
+	 
      var threshhold = 2;
      var checkFields = ['dev_environment', 'qa_environment', 'test_environment', 'prod_environment'];
      var counter = 0;
@@ -49,7 +51,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e9451ca1470b7110ccf235ca116d439c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Check for pipeline</sys_name>
         <sys_overrides/>
         <sys_package display_value="CCW1856" source="x_cdltd_ccw1856">b5a05473908010107f4468f7a3a96f5c</sys_package>
@@ -57,7 +59,7 @@
         <sys_scope display_value="CCW1856">b5a05473908010107f4468f7a3a96f5c</sys_scope>
         <sys_update_name>sys_script_e9451ca1470b7110ccf235ca116d439c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-11 04:52:39</sys_updated_on>
+        <sys_updated_on>2023-12-11 08:50:37</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
